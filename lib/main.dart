@@ -38,8 +38,8 @@ class Example extends StatelessWidget {
           //   ],
           //   borderRadius: BorderRadius.circular(16),
           // ),
-          width: 550,
-          height: 550,
+          width: 250,
+          height: 250,
           child: ParallaxStack(
             layers: [
               ParallaxLayer(
@@ -50,8 +50,8 @@ class Example extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(22),
                   child: SizedBox(
-                    width: 600,
-                    height: 600,
+                    width: 350,
+                    height: 350,
                     child: Image.asset(
                       'assets/office.jpg',
                       fit: BoxFit.fill,
