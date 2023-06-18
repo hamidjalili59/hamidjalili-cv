@@ -26,18 +26,6 @@ class Example extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: SizedBox(
-          // decoration: BoxDecoration(
-          //   color: const Color.fromARGB(36, 107, 236, 253),
-          //   boxShadow: const [
-          //     BoxShadow(
-          //       color: Colors.black12,
-          //       blurRadius: 2,
-          //       spreadRadius: 0,
-          //       offset: Offset(1, 1),
-          //     )
-          //   ],
-          //   borderRadius: BorderRadius.circular(16),
-          // ),
           width: 250,
           height: 250,
           child: ParallaxStack(
@@ -54,7 +42,7 @@ class Example extends StatelessWidget {
                     height: 350,
                     child: Image.asset(
                       'assets/office.jpg',
-                      fit: BoxFit.fill,
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ),
